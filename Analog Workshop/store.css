@@ -1,0 +1,86 @@
+body {
+	background-color: #D6CFCF;
+}
+
+#logo {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+  margin-left: 675px;
+  width: 200px;
+ 
+}
+
+#logo img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#logo:hover {
+  transform: scale(1.05); 
+}
+
+#logo:hover img {
+  opacity: 0.7; 
+}
+
+#navigation {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  font-size: 15px; 
+  line-height: 1.5; 
+  letter-spacing: 0.5px; 
+  text-align: left; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+  margin: 20px 0; 
+}
+
+#logo2 {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+  margin-left: 25%;
+  width: 800px;
+  height: 200px;
+
+}
+
+#navigation{
+  	width: 60px; 
+	margin-left: auto; 
+	margin-right: auto;
+	font-size: 15px; 
+}
+
+#navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#navigation ul li {
+  margin: 0;
+  padding: 0;
+}
+
+ p {
+  font-family: 'Helvetica Neue', Arial, sans-serif; /* Choose your preferred font family */
+  font-size: 18px; /* Adjust the font size to your preference */
+  color: #333; /* Choose your preferred text color */
+  line-height: 1.6; /* Set the line height for readability */
+  letter-spacing: 0.5px; /* Add subtle letter spacing for style */
+  margin-bottom: 20px; /* Add spacing between paragraphs */
+  text-align: center; /* Set text alignment (left, center, right) */
+  text-indent: 20px; /* Add an indent for the first line (optional) */
+  border-left: 2px solid #3498db; /* Add a left border (optional) */
+  padding: 10px; /* Add padding for space around the paragraph */
+  border-radius: 5px; /* Add rounded corners (optional) */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow (optional) */
+}
